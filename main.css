@@ -1,3 +1,35 @@
 body {
     background-color: antiquewhite;
 }
+
+#container {
+   display: flex; 
+   width: 85%;
+   height: auto;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: space-around;
+
+}
+
+.pie-card {
+    background-color: chocolate;
+    width: 28%;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid rgb(58, 38, 13);
+    text-align: center;
+    margin: 10px;
+    box-shadow: 10px 10px 10px goldenrod;
+}
+
+.pie-card img {
+    max-width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.instructor {
+    visibility: hidden;
+}
+
