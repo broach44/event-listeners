@@ -2,6 +2,10 @@ body {
     background-color: antiquewhite;
 }
 
+button {
+    background-color: darkorange;
+}
+
 #container {
    display: flex; 
    width: 85%;
